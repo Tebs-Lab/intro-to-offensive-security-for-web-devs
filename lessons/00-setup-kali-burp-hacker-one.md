@@ -65,8 +65,8 @@ Once your Kali image is downloaded, you'll have to install a Kali virtual machin
 * Allocate a reasonable amount of memory, I have 16 GB RAM on my host and allocated 8 GB to my VM
   * (You can change this later)
 * Select the "create a virtual hard disk now" option then click create.
-  * Select the VDI option, and dynamically allocated size option.
-  * I allocated an initial 20 GB of hard drive space
+  * Select the VDI option, and fixed size options.
+  * I allocated an initial 20 GB of hard drive space.
 * Now click create.
 
 You should now see something like this:
