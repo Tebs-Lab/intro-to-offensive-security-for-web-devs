@@ -4,7 +4,7 @@ Like any trade, penetration testers use a variety of tools to do their job. The 
 
 Prior to class, or at the very start, students will need to install a virtual machine host software (we suggest VirtualBox, but others are also freely available), and a Kali Linux virtual machine (to be run by the VM host). Kali ships with a host of useful penetration testing tools some of which will be used in the lessons. The most important such program is called Burp Suite, which also requires a bit of setup to use. Additionally, the exercises in this repository rely on publicly available CTF's hosted by the Hacker One — a bug bounty platform.
 
-This section is a walkthrough for installing VirtualBox and Kali; configuring Brup; and signing up for a HackerOne account in order to access the CTFs.
+This section is a walkthrough for installing VirtualBox and Kali; configuring Brup; and signing up for a HackerOne account in order to access the CTFs. Finally, we're going to install and setup the Damn Vulnerable Web App, which is a helpful hacking playground where we can practice hacking techniques on a server running inside our Kali VM.
 
 Ideally, students should do this prior to class as downloading and installing Kali takes awhile.
 
@@ -105,6 +105,15 @@ Some advice:
 First, open up Firefox inside your Kali VM, then follow the instructions here. Burp acts as a local proxy and provides a host of useful tools for inspecting our web traffic, modifying it, repeating requests with modifications, and much more. In order to use it, we must configure FireFox to proxy traffic through Burp.  [https://support.portswigger.net/customer/portal/articles/1783066-configuring-firefox-to-work-with-burp](https://support.portswigger.net/customer/portal/articles/1783066-configuring-firefox-to-work-with-burp)
 
 Now that the proxy is configured, you need to open Burp and configure it to play nicely with SSL. This involves adding a root SSL certificate to FireFox (which is an example of another good reason to use a VM!). Open Burp in your Kali VM, then click the "proxy" tab. Click the box that says "Intercept is on" and then  follow these instructions: [https://support.portswigger.net/customer/portal/articles/1783087-installing-burp-s-ca-certificate-in-firefox](https://support.portswigger.net/customer/portal/articles/1783087-installing-burp-s-ca-certificate-in-firefox)
+
+## Setup the DVWA (Optional, but helpful)
+
+Within your Kali VM, you should also download the Damn Vulnerable Web App, and make sure you can get it running. A very complete walkthrough of installing DVWA can be found here [https://www.thomaslaurenson.com/blog/2018/07/12/installing-and-configuring-damn-vulnerable-web-application/](https://www.thomaslaurenson.com/blog/2018/07/12/installing-and-configuring-damn-vulnerable-web-application/). The DVWA has a Github and a website that contain the app itself for download and additional information for those seeking it:
+
+* [DVWA on Github](https://github.com/ethicalhack3r/DVWA)
+* [DVWA's website](http://www.dvwa.co.uk/)
+
+Many instructors (including Teb's Lab) use the DVWA to demonstrate techniques, and it's also helpful as an app to practice with. Having full access to the source code is also quite useful in examining the programming patterns that create vulnerabilities.
 
 ## Almost Done: Get a HackerOne Account
 
