@@ -138,7 +138,7 @@ sql_statement = f"select email, full_name from users where username='{username}'
     * We already know which param to inject, so we can specify it `-p` option.
     * We know we're looking at a Boolean type injection so we can tell SQLMap to start with that `--technique` option
     * You can just let SQLMap do it's think though with default options it will try lots of tactics.
-  * Basic: `sqlmap -u "http://127.0.0.1/DVWA/sqli_blind/?id=1&submit=Submit" --cookie=`  (get the correct cookie value from Burp)
+  * Basic: `sqlmap -u "http://127.0.0.1/DVWA/vulnerabilities/sqli_blind/?id=1&submit=Submit" --cookie=`  (get the correct cookie value from Burp)
   * More Specific: add `-p id --technique B`
 
 * Answer SQLMaps Y/N questions...
