@@ -10,4 +10,7 @@ This exercise requires the first 3 attack types from this course:
 
 ## Note For Instructors:
 
-* The password spraying portion can be very slow with the free version of Burp. Provide students with a short list of usernames and passwords that contain the correct answer combination unless you teach students to use an alternate (faster) tool.
+* The password spraying portion can be very slow with the free version of Burp. Provide students with a short list of usernames and passwords that contain the correct answer combination unless you teach students to use an alternate (faster) tool like Hydra.
+* Here is a useful username list: [https://github.com/jeanphorn/wordlist/blob/master/usernames.txt](https://github.com/jeanphorn/wordlist/blob/master/usernames.txt)
+* For passwords: grab the top 1000 or so from RockYou.
+
