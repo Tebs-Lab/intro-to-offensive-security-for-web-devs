@@ -28,7 +28,7 @@ Additionally, the files in the `exercises` folder are all a small amount of scaf
 
 These materials are available to all and released to the public domain. As far as copyright, patent, and trademark law is concerned, you may use them for any purpose whatsoever. Notwithstanding this repository's dedication to the public domain, it remains your responsibility to comply with any and all applicable laws with respect to the application of this information. See the above legal disclaimer.
 
-## Request a Training From Teb's Lab
+## Support Teb's Lab
 
 This material is provided free of charge and free of copyright by Teb's Lab. We offer world class training on a wide variety of programming, computer science, data science, and software security topics. Visit [our website](https://www.tebs-lab.com/) where you can look through our other [public domain educational materials](https://www.tebs-lab.com/education) and [request a training](https://www.tebs-lab.com/contracting).
 
